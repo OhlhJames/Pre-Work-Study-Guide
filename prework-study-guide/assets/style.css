@@ -1,6 +1,8 @@
-* {
+/* Universal selector marked with asterisk */
+*{
     margin: 0;
     padding: 0;
+/* Tag selector uses Header/Footer */
 }
 header,
 footer {
@@ -28,9 +30,12 @@ p {
     text-align: center;
     font-size: 30px;
   }
+/* class selector uses period*/
   .card {
     width: 80%;
     margin: 40px auto;
     border: 5px solid #2B8BDB;
     box-shadow: 5px 10px #888888;
   }
+
+/* ID selector uses pound sign*/
